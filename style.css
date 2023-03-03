@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    color: red;
+    font-family: cursive;
+    background-color: #1e465a;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #2d414b;
+    
+}
+:root{
+    --winningblocks: #2d414b;
+}
+
+#playertext{
+    color: rgb(240, 241, 240);
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif, cursive;
+}
+#nexttext{
+    color: rgb(21, 213, 62);
+}
+
+
+
+#gameboard{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+
+}
+.box{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+    color: red;
+    cursor: pointer;
+    border: solid 2px black;
+
+    
+    
+    
+}
+
+.hello h1:hover{
+    transform: scale(1.2) translateZ(20px);
+    color: rgb(227, 92, 14);
+}
+
+#playertext:hover{
+    color: aqua;
+}
